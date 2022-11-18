@@ -1,0 +1,22 @@
+{
+    "name": "tartarus",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "concurrently \"cd backend && docker-compose up\" \"cd backend && npm run start:dev\" \"cd frontend && npm run dev\""
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/MartellOnell/portfolio"
+    },
+    "author": "tartarus",
+    "license": "ISC",
+    "homepage": "",
+    "dependencies": {
+      "@nestjs/jwt": "^9.0.0",
+      "@nestjs/swagger": "^6.1.0",
+      "bcryptjs": "^2.4.3"
+    }
+  }
+  
